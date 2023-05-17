@@ -34,13 +34,11 @@ public class Main extends JFrame {
     panelDroit.setBorder(BorderFactory.createEmptyBorder());
     ((JPanel) getContentPane()).setBorder(
         BorderFactory.createEmptyBorder(
-          insets.top,
-          insets.left,
-          insets.bottom,
-          insets.right
-        )
-      );
-    ///PARTIE GAUCHE /////////////////////////////////////////////////////////////
+            insets.top,
+            insets.left,
+            insets.bottom,
+            insets.right));
+    /// PARTIE GAUCHE /////////////////////////////////////////////////////////////
     // Ajouter un bouton et une zone de saisie à chaque panneau
     JLabel nomProduit = new JLabel("Smart phone Xiomi Redmi note 11S 6,43");
     JLabel prixProduit = new JLabel("100 Euro");
@@ -48,11 +46,11 @@ public class Main extends JFrame {
     prixProduit.setBounds(450, 10, 200, 100);
     panelGauche.add(nomProduit);
     panelGauche.add(prixProduit);
-    ///PARTIE DROIT/////////////////////////////////////////////////////////////
+    /// PARTIE DROIT/////////////////////////////////////////////////////////////
     JLabel panier = new JLabel("Panier");
-    JLabel prixPanier =new JLabel("249 Euro");
+    JLabel prixPanier = new JLabel("249 Euro");
     JLabel frais = new JLabel("Frais de livraison estimé");
-    JLabel prixFrais =new JLabel("Gratuit");
+    JLabel prixFrais = new JLabel("Gratuit");
     JLabel total = new JLabel("Total");
     JLabel prixTotal = new JLabel("249 Euro");
     JLabel tva = new JLabel("(TVA incluse)");
@@ -69,6 +67,7 @@ public class Main extends JFrame {
     prixFrais.setBounds(235, 90, 300, 100);
     total.setBounds(10, 150, 100, 100);
     prixTotal.setBounds(223, 150, 100, 100);
+    prixTotal.setForeground(Color.RED);
     tva.setBounds(70, 150, 100, 100);
     economie.setBounds(115, 210, 300, 100);
     boutonDroit.setBounds(40, 315, 230, 35);

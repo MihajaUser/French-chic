@@ -54,6 +54,10 @@ public class Commande {
 
 
     public void addProduit(Produit produit, float quantite){
-        
+        LigneCommande lcommande = new LigneCommande();
+        lcommande.setQuantite(quantite);
+        lcommande.setTotal(quantite * produit.getPrix());
+
+        this.ligne.add(lcommande);
     }
 }

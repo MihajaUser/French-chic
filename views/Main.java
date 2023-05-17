@@ -42,9 +42,9 @@ public class Main extends JFrame {
       );
     ///PARTIE GAUCHE /////////////////////////////////////////////////////////////
     // Ajouter un bouton et une zone de saisie à chaque panneau
-    JLabel nomProduit = new JLabel(" Redmin note 7");
+    JLabel nomProduit = new JLabel("Smart phone Xiomi Redmi note 11S 6,43");
     JLabel prixProduit = new JLabel("100 Euro");
-    nomProduit.setBounds(100, 10, 200, 100);
+    nomProduit.setBounds(100, 10, 400, 100);
     prixProduit.setBounds(450, 10, 200, 100);
     panelGauche.add(nomProduit);
     panelGauche.add(prixProduit);
@@ -70,7 +70,7 @@ public class Main extends JFrame {
     total.setBounds(10, 150, 100, 100);
     prixTotal.setBounds(223, 150, 100, 100);
     tva.setBounds(70, 150, 100, 100);
-    economie.setBounds(115, 200, 300, 100);
+    economie.setBounds(115, 210, 300, 100);
     boutonDroit.setBounds(40, 315, 230, 35);
     boutonDroit.setForeground(Color.WHITE);
     boutonDroit.setBackground(Color.YELLOW);
